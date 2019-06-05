@@ -1,0 +1,5 @@
+*.swp
+*.egg-info
+__pycache__
+.env
+cdk.out

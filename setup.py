@@ -20,6 +20,9 @@ setuptools.setup(
 
     install_requires=[
         "aws-cdk.cdk",
+        "aws-cdk.aws-iam",
+        "aws-cdk.aws-codepipeline",
+        "aws-cdk.aws-codebuild",
     ],
 
     python_requires=">=3.6",

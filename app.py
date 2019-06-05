@@ -6,6 +6,6 @@ from cdk_pipeline.cdk_pipeline_stack import CdkPipelineStack
 
 
 app = cdk.App()
-CdkPipelineStack(app, "cdk-pipeline-cdk-1")
+CdkPipelineStack(app, "cdk-pipeline-cdk-1", pipeline_name='ashpipe')
 
 app.run()
